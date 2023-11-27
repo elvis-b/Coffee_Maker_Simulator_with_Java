@@ -10,8 +10,7 @@ public class CoffeeMachine {
         FILLING_WATER,
         FILLING_MILK,
         FILLING_BEANS,
-        FILLING_CUPS,
-        COMPLETED_FILLING
+        FILLING_CUPS
     }
 
     private State state = State.CHOOSING_ACTION;
